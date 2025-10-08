@@ -24,10 +24,10 @@ form.addEventListener("submit", function (e) {
 
   newLi.addEventListener("click", () => {
     newLi.classList.toggle("done")
+  })
 
-    dltButton.addEventListener("click", () => {
-      newLi.remove
-    })
+  dltButton.addEventListener("click", () => {
+    newLi.remove()
   })
 })
 
