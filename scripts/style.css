@@ -15,6 +15,8 @@ form input {
 button {
   font-size: 0.8em;
   margin: 10px;
+  color: antiquewhite;
+  background-color: rgb(0, 0, 0);
 }
 form label {
   margin: 10px;
@@ -33,9 +35,13 @@ form label {
   text-decoration: line-through gray;
 }
 li {
+  background-color: aqua;
   cursor: pointer;
   font-size: 2em;
 }
 .delete-button {
   background-color: black;
+  color: aliceblue;
+  border: solid 2px black;
+  cursor: pointer;
 }
