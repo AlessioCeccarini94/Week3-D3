@@ -1,0 +1,41 @@
+h1 {
+  font-size: 5em;
+}
+#form {
+  border: solid 2px black;
+  width: 50%;
+  font-size: 2em;
+  background-image: url(./images/images.jpeg);
+  background-size: cover;
+}
+form input {
+  font-size: 0.8em;
+  margin: 10px;
+}
+button {
+  font-size: 0.8em;
+  margin: 10px;
+}
+form label {
+  margin: 10px;
+  border: solid 3px white;
+  background-color: rgb(225, 237, 238);
+}
+#label {
+  margin-top: 10px;
+}
+#list {
+  border: solid 3px black;
+  width: 50%;
+  margin-top: 20px;
+}
+.done {
+  text-decoration: line-through gray;
+}
+li {
+  cursor: pointer;
+  font-size: 2em;
+}
+.delete-button {
+  background-color: black;
+}
