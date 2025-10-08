@@ -1,12 +1,33 @@
-h1 {
-  font-size: 5em;
+body {
+  background-color: bisque;
+  text-align: center;
 }
+h1 {
+  border: solid 2px black;
+  font-size: 5em;
+  border-radius: 10px;
+}
+header {
+  padding-left: 50%;
+}
+main {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-left: 50%;
+}
+
+#main {
+  border: solid 3px rgb(94, 0, 0);
+  width: 50%;
+}
+
 #form {
   border: solid 2px black;
-  width: 50%;
   font-size: 2em;
   background-image: url(./images/images.jpeg);
   background-size: cover;
+  border-radius: 10px;
 }
 form input {
   font-size: 0.8em;
@@ -16,7 +37,7 @@ button {
   font-size: 0.8em;
   margin: 10px;
   color: antiquewhite;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(94, 0, 0);
 }
 form label {
   margin: 10px;
@@ -27,21 +48,24 @@ form label {
   margin-top: 10px;
 }
 #list {
-  border: solid 3px black;
-  width: 50%;
+  border-radius: 10px;
+  border: solid 3px rgb(94, 0, 0);
   margin-top: 20px;
 }
 .done {
   text-decoration: line-through gray;
 }
 li {
-  background-color: aqua;
   cursor: pointer;
   font-size: 2em;
 }
+li span {
+  width: 100%;
+}
 .delete-button {
-  background-color: black;
+  background-color: rgb(239, 5, 5);
   color: aliceblue;
-  border: solid 2px black;
+  border: solid 2px rgb(94, 0, 0);
   cursor: pointer;
+  border-radius: 20px;
 }
